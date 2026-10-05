@@ -4,11 +4,17 @@ Tạo video lyrics và karaoke từ file nhạc cùng lời bài hát, chạy tr
 
 ## Demo
 
-[![Ảnh bìa video demo — Lên Kèo Bình An](docs/demo/cover.jpg)](docs/demo/karaoke-demo.mp4?raw=true)
+Video karaoke mẫu (20 giây):
 
-[Xem video demo karaoke (MP4, 20 giây)](docs/demo/karaoke-demo.mp4?raw=true)
+https://github.com/user-attachments/assets/66447faa-bc84-4173-848c-a98cbc0ec4d8
 
-![Highlight từng từ với màu vàng ấm](docs/demo/karaoke-preview.jpg)
+[Tải video demo MP4](docs/demo/karaoke-demo.mp4?raw=true)
+
+## Giao diện
+
+Giao diện chạy tại [localhost:3000](http://localhost:3000), với nội dung mẫu đang xem trước:
+
+![Giao diện Lydra: nhập lời, xem trước, tuỳ chỉnh thiết kế và timeline](docs/demo/studio-interface.jpg)
 
 ## Cài đặt
 

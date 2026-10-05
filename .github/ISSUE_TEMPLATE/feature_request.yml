@@ -1,0 +1,18 @@
+name: Đề xuất cải tiến
+description: Góp ý tính năng hoặc cách làm tốt hơn
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Nhu cầu
+      description: Bạn đang muốn giải quyết việc gì?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Đề xuất
+      description: Mô tả cách hoạt động bạn mong muốn; thêm ví dụ hoặc hình minh hoạ nếu có.
+    validations:
+      required: true

@@ -1,0 +1,40 @@
+{
+  "name": "lydra-lyric-video",
+  "version": "0.1.0",
+  "description": "Local lyric video and karaoke studio with Vietnamese lyric alignment.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kythuatdulieu/lyric-video-studio.git"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.531",
+    "@remotion/media-utils": "4.0.531",
+    "@remotion/player": "4.0.531",
+    "@remotion/renderer": "4.0.531",
+    "lucide-react": "1.49.0",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.531",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.1.11"
+  }
+}

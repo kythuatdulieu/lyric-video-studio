@@ -1,0 +1,31 @@
+name: Báo lỗi
+description: Mô tả lỗi và cách tái hiện
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Bước tái hiện
+      description: Bạn đã làm gì trước khi gặp lỗi?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Kết quả mong đợi
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Kết quả thực tế
+      description: Có thể kèm ảnh hoặc thông báo lỗi đã che thông tin riêng tư. Không gửi API key hoặc file .env.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Môi trường
+      description: Hệ điều hành, trình duyệt, phiên bản Node.js; với lỗi timing, thêm model và mốc bị lệch.
+    validations:
+      required: true
